@@ -1,0 +1,41 @@
+.home-footer-banner{
+    padding: 20px 10px;
+    background: red;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+.home-footer h2{
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 0;
+    font-weight: 700;
+  }
+
+  .home-footer h6{
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+
+  .home-footer-icon{
+    color: white;
+    padding-right: 10px;
+  }
+
+
+  @media only screen and (max-width: 647px) {
+    .home-footer-banner{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .home-footer-banner div{
+        padding: 10px;
+    }
+
+  }

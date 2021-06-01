@@ -3,64 +3,8 @@
   background: #E5D68A;
 }
 
-.home-header{
+.home-img{
   width: 100%;
-  display: flex;
-  justify-content: center;
-
-}
-
-.home-logo{
-  height: 40%;
-}
-
-.hero-img{
-  width: 100%;
-}
-
-.hero-img-pump.home-img{
-  width: 900px;
-}
-
-.home-hero{
-  width: 100%;
-  display: flex;
-}
-
-.home-hero-left{
-  flex: 0 0 40%;
-}
-
-.home-hero-right{
-  flex: 1;
-}
-
-.home-display{
-  width: 100%;
-  text-align: center;
-}
-
-.home-footer h2{
-  text-align: center;
-  padding: 10px;
-  padding-bottom: 0;
-  font-weight: 700;
-}
-
-.home-footer h6{
-  text-align: center;
-  padding: 10px 20px;
-  font-size: 16px;
-}
-
-.home-footer-banner{
-  padding: 20px 10px;
-  background: red;
-  display: flex;
-  justify-content: space-between;
-}
-
-.home-footer-icon{
-  color: white;
-  padding-right: 5px;
+  height: 100%;
+  object-fit: contain;
 }
